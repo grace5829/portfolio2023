@@ -19,10 +19,11 @@ const Navbar = () => {
         <Image
           src="/../public/assets/dino.png"
           alt="/"
-          width="105"
+          width="65"
           height="50"
         />
         <div>
+        {/* when you click to a project; it should go to a individual page for more detail about the app then link to the app on that page  */}
           {/* if window is greater than md width, it will take on prop flex, else smaller than md then is hidden */}
           <ul className="hidden md:flex">
             <Link href="/">
