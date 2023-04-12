@@ -1,15 +1,24 @@
-import React from 'react'
+import React from "react";
 
 const Main = () => {
   return (
-    <div className='w-full h-screen text-center'>
-        <div className='max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center'>
-            <div>
-                <p>Let's build something together.</p>
-            </div>
+    <div className="w-full h-screen text-center">
+      <div className="max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center">
+        <div>
+          <p className="uppercase text-sm tracking-widest text-gray-600">
+            Let's build something together.
+          </p>
+          <h1 className="py-4 text-gray-700">
+            Hi, I'm <span className="text-[#5651e5]">Grace </span>
+          </h1>
+          <h1 className="py-2 text-gray-700"> A Front-End Web Developer</h1>
+          <p>
+            I'm a front end developer... 
+          </p>
         </div>
+      </div>
     </div>
-  )
-}
+  );
+};
 
-export default Main
+export default Main;
