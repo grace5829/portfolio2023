@@ -7,7 +7,7 @@ const Skills = () => {
     <div className='max-w-[1240px] mx-auto flex flex-col justify-centerh-full'>
     <p className='text-xl tracking-wdied uppercase text-[#5151e5]'> Skills</p>
     <h2 className='py-4'>What I can do</h2>
-    <div className='grad md:grid-cols-2 lg:grid-cols-4 gap-8'>
+    <div className='grid md:grid-cols-4 lg:grid-cols-6 gap-8'>
 
         <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
         <div className='grid grid-cols-2 gap-4 justify-center items-center'>
@@ -119,7 +119,7 @@ const Skills = () => {
             </div>
         </div>
         </div>
-        <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
+        <div className='p-10 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
         <div className='grid grid-cols-2 gap-4 justify-center items-center'>
             <div className='m-auto'>
                 <Image src='/../public/assets/skills/express.png' alt='/' width='64' height='64'/>
