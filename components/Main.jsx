@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 import { AiOutlineMail } from "react-icons/ai";
 import { BsFillPersonLinesFill } from "react-icons/bs";
@@ -19,17 +20,15 @@ const Main = () => {
             I'm a front end developer... 
           </p>
           <div className="flex items-center justify-between max-w-[330px] m-auto py-4">
-                <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-                    <FaLinkedin />
+          <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+                 <Link href='https://www.linkedin.com/in/gracegao-fullstack/'>   <FaLinkedin /> </Link> 
                 </div>
                 <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-                    <FaGithub />
+                   <Link href="https://github.com/grace5829">  <FaGithub /> </Link>
                 </div>
                 <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-                    <AiOutlineMail />
-                </div>
-                <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-                    <BsFillPersonLinesFill />
+                <Link href="/#contact">
+ <AiOutlineMail/>  </Link>
                 </div>
           </div>
         </div>

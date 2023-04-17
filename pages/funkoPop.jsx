@@ -18,9 +18,9 @@ const FunkoPop = () => {
         <p>My first group project! We created an e-commerce site for Funko Pop products. 
         You can simulate a shopping experience as a guest/logged in user. Admin users are able to create, update, and delete products.
         </p>
-        <button className='px-8 py-2 mt-4 mr-8'>        
+        {/* <button className='px-8 py-2 mt-4 mr-8'>        
         <Link href='https://story-of-my-life-d0220.web.app/'>
-          Demo </Link></button>
+          Demo </Link></button> */}
         <button className='px-8 py-2 mt-4'> <Link href='https://github.com/funko-pop-teamb/FunkoPopShop'>Code</Link></button>
         </div>
         <div className='col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl p-4'> 
