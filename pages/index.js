@@ -17,7 +17,6 @@ export default function Home() {
   <Head>
     <title>Grace | Fullstack Developer</title>
   </Head>
-  <Navbar/>
   <Main/>
   <About/>
   <Skills/>
