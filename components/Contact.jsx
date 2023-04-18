@@ -32,7 +32,7 @@ const form = useRef();
     }
 
   return (
-    <div id='contact' className='w-full lg:h-screen'>
+    <div id='contact' className='w-full lg:h-screen pt-4'>
         <div className='max-w-[1240px] m-auto px-2 py-16 w-full'>
             <p className='text-xl tracking-widest uppercase text-[#5651e5]'>Contact</p>
             <h2 className='py-4'>Get in touch</h2>
@@ -46,7 +46,7 @@ const form = useRef();
             <div>
                 <h2 className='py-2'>Grace Gao </h2>
                 <p>Fullstack developer</p>
-                <p className='py-4'> I am available for freelance or full-time position. Contact me and let's talk!</p>
+                <p className='py-4'> I am actively seeking new opportunities and would welcome the chance to connect and explore potential collaborations. Contact me and let's talk!</p>
             </div>
 
         <div>

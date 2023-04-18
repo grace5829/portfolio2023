@@ -20,12 +20,19 @@ const wormsEyeView = () => {
         their location, time of year, and current weather.Additionally, 
          users can browse the entire database of 500 plants, save favorite plants,
          journal their gardening progress and plan their future garden with our garden plot visualizer tool.
-         
+         </p>
+         <p>
         Worm's Eye View was my capstone project at Fullstack Academy. This project taught me the importance of planning and design. We started with a very clear goal, 
         stretch goal, and design. We invested time and resources into these areas which saved time in the long run since we had a good API for plants, images, and weather. 
         We also had a clear idea of the layout so it was easy for everyone to focus on a small part without constantly needing to check in. 
+</p> 
+        <h3 className='py-2'>Contributions: </h3>
+        <li> Created connections to the Firebase database that enabled data retrieval and storage</li>
+        <li> Developed user registration/authentication with account and profile settings using Firebase auth</li>
+        <li> Designed and developed view all plants page and filter abilities</li>
+        <li> Created and implemented CRUD operations for personal journal component </li>
 
-
+<p className='pt-2'>
          Created by: An Emard, Kevin Lam, Kenny Johnson and Grace Gao
           </p>
         <button className='px-8 py-2 mt-4 mr-8'>        

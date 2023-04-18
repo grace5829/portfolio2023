@@ -1,23 +1,82 @@
-import Image from 'next/image'
-import React from 'react'
+import Image from "next/image";
+import Link from "next/link";
+import React from "react";
 
 const About = () => {
   return (
-    <div id='about' className='w-full md:h-screen p-2 flex items-center py-16'>
-        <div className='max-w-[1240px] m-auto md:grid grid-cols-3 gap-8'>
-            <div className='col-span-2'>
-                <p className='uppercase text-xl tracking-widest  text-[#5651e5]'>About</p>
-                <h2 className='py-4'>Who I Am</h2>
-                <p className='py-2 text-gray-600'> First paragraph of myself</p>
-                <p className='py-2 text-gray-600'> Second paragraph of myself</p>
-                <p className='py-2 text-gray-600 underline cursor-pointer'>Check out my projects</p>
-            </div>
-            <div className='w-full h-auto m-auto shadow-xl shawdow-gray-400 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300'> 
-            <img className='rounded-xl ' src='https://ih1.redbubble.net/image.1588386565.4549/flat,750x,075,f-pad,750x1000,f8f8f8.jpg' alt='/'  />
-            </div>
-        </div>
-    </div>
-  )
-}
+    <div id="about" className="w-full md:h-screen p-2 flex items-center py-16">
+    <div className="absolute top-0 -left-4 w-72 h-72 bg-purple-300 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob1a "></div>
+    <div className="absolute top-20 -right-4 w-72 h-72 bg-yellow-300 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob1b "></div>
+    <div className="absolute -bottom-8 left-80 w-72 h-72 bg-pink-300 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob2a"></div>
+    <div className="absolute -bottom-18 left-80 w-72 h-72 bg-emerald-200 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob2b "></div>
+    <div className="absolute -bottom-5 right-10 w-72 h-72 bg-emerald-400 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob3a "></div>
+     
+     
+      <div className="max-w-[1240px] m-auto md:grid grid-cols-3 gap-8">
+        <div className="col-span-2">
+          <p className="uppercase text-xl tracking-widest  text-[#5651e5]">
+            About
+          </p>
+          <h2 className="py-4">Who I Am</h2>
+          <p className="py-2 text-gray-600">
+            I'm a full stack developer with experience primarily in the
+            <span className="text-[#5651e5] font-bold">
+              {" "}
+              JavaScript PERN stack
+            </span>
+            . As a graduate of Fullstack Academy Program, I've built web
+            applications by contributing to
+            <span className="text-[#5651e5] font-bold">
+              {" "}
+              front and back end development{" "}
+            </span>
+            with integration through
+            <span className="text-[#5651e5] font-bold">
+              {" "}
+              relational & non-relational databases
+            </span>
+            . I thrive on exchanging ideas and collaborating with my peers when
+            working in pairs, and enjoy tackling complex problems and exploring
+            new technologies when working independently. I am eager to apply my
+            experience and expertise to drive meaningful innovation in the
+            software industry. I am actively
+            <span className="text-[#5651e5] font-bold">
+              {" "}
+              seeking new opportunities{" "}
+            </span>
+            and would welcome the chance to connect and explore potential
+            collaborations.
+          </p>
+          <p className="py-2 text-gray-600">
+            I have always been driven to pursue a career that offers ongoing
+            opportunities for learning and growth. I am drawn to collaborative
+            work environments where I can make a meaningful impact on the
+            development of the company while enhancing my own abilities. My
+            prior experience with client services and payments makes me a
 
-export default About
+            <span className="text-[#5651e5] font-bold"> creative problem solver</span>,
+            <span className="text-[#5651e5] font-bold"> meticulous </span>,
+            and
+             <span className="text-[#5651e5] font-bold"> detail oriented
+            </span>
+            . My passion lies in mission-based, tech-for-good roles that allow
+            me to use my skills to make a positive impact on society.
+          </p>
+          <p className="py-2 text-gray-600 underline cursor-pointer">
+            <Link href="/#projects">Check out my projects</Link>
+          </p>
+        </div>
+        <div className="w-full h-auto m-auto shadow-xl shawdow-gray-400 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300">
+        <Image
+            className="rounded-xl "
+            src="/../public/assets/me2.jpeg"
+            alt="/"
+          width="285"
+          height="280"          />
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default About;

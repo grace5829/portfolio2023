@@ -18,6 +18,13 @@ const FunkoPop = () => {
         <p>My first group project! We created an e-commerce site for Funko Pop products. 
         You can simulate a shopping experience as a guest/logged in user. Admin users are able to create, update, and delete products.
         </p>
+
+        <h3 className='py-2'>Contributions: </h3>
+        <li>Set up Express routes to create, update, read, delete for user profile, cart, and FunkoPops  </li>
+        <li>Created react components for all products view, single product view, cart, home page, and user profile</li>
+        <p className='pt-2'>
+         Created by: Jenny Chen, John Drayton, Andrea Arnold, Grace Gao
+          </p>
         {/* <button className='px-8 py-2 mt-4 mr-8'>        
         <Link href='https://story-of-my-life-d0220.web.app/'>
           Demo </Link></button> */}
