@@ -51,7 +51,7 @@ useEffect(() => {
       <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
         <Link href='/'> 
         <Image
-          src="/../public/assets/dino.png"
+          src="/../public/assets/meSmall.png"
           alt="/"
           width="65"
           height="50"
@@ -101,10 +101,10 @@ useEffect(() => {
             <Link href='/'>
 
               <Image
-                src="/../public/assets/dino.png"
+                src="/../public/assets/meSmall.png"
                 alt="/"
-                width="40"
-                height="40"
+                width="50"
+                height="50"
               />
             </Link>
               <div onClick={handleNav} className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer">
