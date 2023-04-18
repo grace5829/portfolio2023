@@ -5,6 +5,13 @@ import React from "react";
 const About = () => {
   return (
     <div id="about" className="w-full md:h-screen p-2 flex items-center py-16">
+    <div className="absolute top-0 -left-4 w-72 h-72 bg-purple-300 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob1a "></div>
+    <div className="absolute top-20 -right-4 w-72 h-72 bg-yellow-300 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob1b "></div>
+    <div className="absolute -bottom-8 left-80 w-72 h-72 bg-pink-300 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob2a"></div>
+    <div className="absolute -bottom-18 left-80 w-72 h-72 bg-emerald-200 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob2b "></div>
+    <div className="absolute -bottom-5 right-10 w-72 h-72 bg-emerald-400 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob3a "></div>
+     
+     
       <div className="max-w-[1240px] m-auto md:grid grid-cols-3 gap-8">
         <div className="col-span-2">
           <p className="uppercase text-xl tracking-widest  text-[#5651e5]">
@@ -46,7 +53,9 @@ const About = () => {
             work environments where I can make a meaningful impact on the
             development of the company while enhancing my own abilities. My
             prior experience with client services and payments makes me a
-            <span className="text-[#5651e5] font-bold"> clear communicator</span>, <span className="text-[#5651e5] font-bold">creative problem solver</span>,<span className="text-[#5651e5] font-bold"> meticulous, </span>
+
+            <span className="text-[#5651e5] font-bold"> creative problem solver</span>,
+            <span className="text-[#5651e5] font-bold"> meticulous </span>,
             and
              <span className="text-[#5651e5] font-bold"> detail oriented
             </span>
