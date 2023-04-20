@@ -34,11 +34,12 @@ const form = useRef();
   return (
     <div id='contact' className='w-full lg:h-screen pt-4'>
         <div className='max-w-[1240px] m-auto px-2 py-16 w-full'>
-            <p className='text-xl tracking-widest uppercase text-[#5651e5]'>Contact</p>
+        
+            <p className='text-4xl tracking-widest uppercase text-[#5651e5] font-caveat '>Contact</p>
             <h2 className='py-4'>Get in touch</h2>
             <div className='grid lg:grid-cols-5 gap-8'>
 {/*left  */}
-    <div className='col-span-3 lg:col-span-2 w-full h-full shadow-xl shadow-gray-400 rounded-xl p-4'>
+    <div className='col-span-3 lg:col-span-2 w-full h-full shadow-xl shadow-gray-400 rounded-xl p-4 bg-[#ecf0f3] relative'>
         <div className='lg:p-4 h-full '>
             <div>
                 <img className='rounded-xl hover:scale-105 ease-in duration-300' src='https://cdn.shopify.com/app-store/listing_images/c2d2c2ebfde890cd8d92147169fd6480/icon/COWYiMf0lu8CEAE=.png' alt='' />
@@ -52,10 +53,10 @@ const form = useRef();
         <div>
             <p className='uppercase pt-8'>Connect with me</p>
             <div className='flex items-center justify-evenly py-4'> 
-            <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+            <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300  hover:bg-[#bfe1fb] bg-[#ecf0f3] relative">
                  <Link href='https://www.linkedin.com/in/gracegao-fullstack/'>   <FaLinkedin /> </Link> 
                 </div>
-                <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+                <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300  hover:bg-[#bfe1fb] bg-[#ecf0f3] relative">
                    <Link href="https://github.com/grace5829">  <FaGithub /> </Link>
                 </div>
                 {/* <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
@@ -69,7 +70,7 @@ const form = useRef();
         </div>
     </div>
 {/* right */}
-            <div className='col-span-3 w-full h-auto shadow-xl shadow-gray-400 rounded-xl lg:p-4'> 
+            <div className='col-span-3 w-full h-auto shadow-xl shadow-gray-400 rounded-xl lg:p-4 bg-[#ecf0f3] relative'> 
             <div className='p-4'>
             <form ref={form} onSubmit={sendEmail}> 
                 <div className='grid md:grid-cols-2 gap-4 w-full py-2'>
@@ -102,7 +103,7 @@ const form = useRef();
             </div>
             <div className='flex justify-center py-12'>
                 <Link href='/'> 
-                <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+                <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300 bg-[#ecf0f3] relative" >
                 <HiOutlineChevronDoubleUp className='text-[#5651e5]' size={30}/>
                 </div>
                 </Link>
