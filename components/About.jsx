@@ -62,12 +62,12 @@ const About = () => {
           </p>
         </div>
         <div className="relative w-full h-auto m-auto shadow-xl shawdow-gray-400 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300 bg-[#ecf0f3]">
-        {/* <Image
+        <Image
             className="rounded-xl"
             src="/../public/assets/me2.jpeg"
             alt="/"
           width="285"
-          height="280"          /> */}
+          height="280"          />
         </div>
       </div>
     </div>
