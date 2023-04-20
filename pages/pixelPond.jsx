@@ -23,26 +23,27 @@ const PixelPond = () => {
         <div className="col-span-4">
           <h2>Overview</h2>
           <p>
-            Pixel Pond is a photo storage and management website designed. It
-            allows users to store unlimited photos for free and access them from
-            any device with internet access. The website also features a folder
-            system with the ability to upload multiple images, as well as the
-            ability to download single images or multiple selected/all images in
-            a zipped folder. With the ability to manage and store all of your
-            photos in one place, this website makes it easy for users to keep
-            their memories safe and organized.
+            Pixel Pond is a photo storage and management website designed to
+            help users store unlimited photos for free and access them from any
+            device with internet access. The website features a user-friendly
+            folder system that allows users to upload multiple images, as well
+            as the ability to download single images or multiple selected/all
+            images in a zipped folder. With the ability to manage and store all
+            of your photos in one place, Pixel Pond makes it easy for users to
+            keep their memories safe and organized.
           </p>
 
           <p className="pt-3">
-            Pixel Pond was my first solo project! My biggest challenge was
-            figuring out the best way to download multiple images. I spent time
-            researching on google and experimented with different solutions. I
-            knew the fastest solution would be to download a zip file with all
-            the images but I couldn&apos;t find documentation for the exact code. I
-            started by writing code to download images one at a time and with
-            the save location as computer&apos;s downloads folder. Then I figured out
+            As my first solo project, Pixel Pond presented a significant
+            challenge in figuring out the best way to download multiple images.
+            After spending time researching and experimenting with
+            different solutions, I ultimately discovered that the fastest
+            solution was to download a zip file with all the images. However, I
+            couldn&apos;t find documentation for the exact code to accomplish this
+            task. I started by writing code to download images one at a time and
+            saving them to the computer&apos;s downloads folder. Then, I figured out
             how to create a new folder within my downloads folder for all the
-            images. Lastly, I figured out how to convert the folder to a zip
+            images. Lastly, I learned how to convert the folder to a zip
             format.
           </p>
           <button className="px-8 py-2 mt-4 mr-8">
