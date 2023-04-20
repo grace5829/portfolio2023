@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import React, {useState, useEffect} from "react";
 import { AiOutlineClose, AiOutlineMail, AiOutlineMenu } from "react-icons/ai";
-import { FaGithub, FaLinkedinIn } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaLinkedinIn } from "react-icons/fa";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import { useRouter } from "next/router";
 const Navbar = () => {
@@ -132,18 +132,21 @@ useEffect(() => {
             <div className="pt-40">
                 <p className="uppercase tracking-widest text-[#5651e5]">Let&apos;s connect</p>
                 <div className="flex itesm-center justify-between my-4 w-full sm:w-[80%]">
-                <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300 hover:bg-[#bfe1fb]">
-                    <FaLinkedinIn /> 
-                </div>
-                <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300 hover:bg-[#bfe1fb]">
-                    <FaGithub /> 
-                </div>
-                <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300 hover:bg-[#bfe1fb]">
-                    <AiOutlineMail /> 
-                </div>
-                <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300 hover:bg-[#bfe1fb]">
-                    <BsFillPersonLinesFill /> 
-                </div>
+                <Link href="https://www.linkedin.com/in/gracegao-fullstack/">
+              <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 hover:bg-[#bfe1fb] ease-in duration-300 bg-[#ecf0f3] relative">
+                <FaLinkedin/>
+              </div>
+            </Link>
+            <Link href="https://github.com/grace5829">
+              <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 hover:bg-[#bfe1fb] ease-in duration-300 bg-[#ecf0f3] relative">
+                <FaGithub />
+              </div>
+            </Link>
+            <Link href="/#contact">
+              <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 hover:bg-[#bfe1fb] ease-in duration-300 bg-[#ecf0f3] relative">
+                <AiOutlineMail />
+              </div>
+            </Link>
                 </div>
             </div>
           </div>

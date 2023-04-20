@@ -54,12 +54,16 @@ const form = useRef();
         <div>
             <p className='uppercase pt-8'>Connect with me</p>
             <div className='flex items-center justify-evenly py-4'> 
+                 <Link href='https://www.linkedin.com/in/gracegao-fullstack/'>  
             <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300  hover:bg-[#bfe1fb] bg-[#ecf0f3] relative">
-                 <Link href='https://www.linkedin.com/in/gracegao-fullstack/'>   <FaLinkedin /> </Link> 
+                  <FaLinkedin />
                 </div>
+                   </Link> 
+                   <Link href="https://github.com/grace5829">  
                 <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300  hover:bg-[#bfe1fb] bg-[#ecf0f3] relative">
-                   <Link href="https://github.com/grace5829">  <FaGithub /> </Link>
+                   <FaGithub /> 
                 </div>
+                   </Link>
                 {/* <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
                     <AiOutlineMail />
                 </div>
