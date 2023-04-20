@@ -42,12 +42,12 @@ const form = useRef();
     <div className='col-span-3 lg:col-span-2 w-full h-full shadow-xl shadow-gray-400 rounded-xl p-4 bg-[#ecf0f3] relative'>
         <div className='lg:p-4 h-full '>
             <div>
-                <img className='rounded-xl hover:scale-105 ease-in duration-300' src='https://cdn.shopify.com/app-store/listing_images/c2d2c2ebfde890cd8d92147169fd6480/icon/COWYiMf0lu8CEAE=.png' alt='' />
+                {/* <img className='rounded-xl hover:scale-105 ease-in duration-300' src='https://cdn.shopify.com/app-store/listing_images/c2d2c2ebfde890cd8d92147169fd6480/icon/COWYiMf0lu8CEAE=.png' alt='' /> */}
             </div>
             <div>
                 <h2 className='py-2'>Grace Gao </h2>
                 <p>Fullstack developer</p>
-                <p className='py-4'> I am actively seeking new opportunities and would welcome the chance to connect and explore potential collaborations. Contact me and let's talk!</p>
+                <p className='py-4'> I am actively seeking new opportunities and would welcome the chance to connect and explore potential collaborations. Contact me and let&apos;s talk!</p>
             </div>
 
         <div>
