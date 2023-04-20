@@ -68,7 +68,6 @@ const BackgroundBalls = () => {
     <div className="absolute top-[510%] left-[80%] w-72 h-72 bg-indigo-200 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob1b "></div>
 
     <div className="absolute top-[510%] -left-4 w-72 h-72 bg-amber-300 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob1a "></div>
-    <div className="absolute top-[540%] right-6  w-72 h-72 bg-yellow-300 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob2b "></div>
     <div className="absolute top-[510%] right-[40%] w-52 h-52 bg-fuchsia-300 rounded-full mix-blend-multiply  filter blur-xl opacity-70 animate-blob1a"></div>
  
 
