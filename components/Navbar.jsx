@@ -49,14 +49,11 @@ useEffect(() => {
     style={{backgroundColor:`${navBg}`}}
     className={shadow? 'fixed w-full h-20 shadow-xl z-[100]':' fixed w-full h-20 z-[100]'  }>
       <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
+      <div className="w-20">
         <Link href='/'> 
-        <Image
-          src="/../public/favicon.ico"
-          alt="/"
-          width="90"
-          height="90"
-        />
+        <img src='https://firebasestorage.googleapis.com/v0/b/story-of-my-life-d0220.appspot.com/o/images%2Flogo7acb4ff3-0888-4d99-bd0f-611b407c811e?alt=media&token=e95c66ef-994b-4f8e-80e4-87e635724b1e' alt='' />
         </Link>
+      </div>
         <div>
         {/* when you click to a project; it should go to a individual page for more detail about the app then link to the app on that page  */}
           {/* if window is greater than md width, it will take on prop flex, else smaller than md then is hidden */}
@@ -100,12 +97,11 @@ useEffect(() => {
             <div className="flex w-full items-center justify-between">
             <Link href='/'>
 
-              <Image
-                src="/../public/assets/projects/logo.png"
-                alt="/"
-                width="90"
-                height="90"
-              />
+            <div className="w-20">
+        <Link href='/'> 
+        <img src='https://firebasestorage.googleapis.com/v0/b/story-of-my-life-d0220.appspot.com/o/images%2Flogo7acb4ff3-0888-4d99-bd0f-611b407c811e?alt=media&token=e95c66ef-994b-4f8e-80e4-87e635724b1e' alt='' />
+        </Link>
+      </div>
             </Link>
               <div onClick={handleNav} className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer">
                 <AiOutlineClose />
