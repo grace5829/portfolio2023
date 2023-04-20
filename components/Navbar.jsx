@@ -51,10 +51,10 @@ useEffect(() => {
       <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
         <Link href='/'> 
         <Image
-          src="/../public/assets/meSmall.png"
+          src="/../public/favicon.ico"
           alt="/"
-          width="65"
-          height="50"
+          width="95"
+          height="80"
         />
         </Link>
         <div>
@@ -64,25 +64,25 @@ useEffect(() => {
           style={{color:`${linkColor}`}}
           className="hidden md:flex">
             <Link href="/">
-              <li className="ml-10 text-sm uppercase hover:border-b"> Home</li>{" "}
+              <li className="ml-10 text-sm uppercase hover:border-b hover:font-bold hover:text-[#2d90dc]"> Home</li>{" "}
             </Link>
             <Link href="/#about">
-              <li className="ml-10 text-sm uppercase hover:border-b"> About</li>{" "}
+              <li className="ml-10 text-sm uppercase hover:border-b hover:text-[#2d90dc] hover:font-bold"> About</li>{" "}
             </Link>
             <Link href="/#skills">
-              <li className="ml-10 text-sm uppercase hover:border-b">
+              <li className="ml-10 text-sm uppercase hover:border-b hover:text-[#2d90dc] hover:font-bold">
                 {" "}
                 Skills
               </li>{" "}
             </Link>
             <Link href="/#projects">
-              <li className="ml-10 text-sm uppercase hover:border-b">
+              <li className="ml-10 text-sm uppercase hover:border-b hover:text-[#2d90dc] hover:font-bold">
                 {" "}
                 Projects
               </li>{" "}
             </Link>
             <Link href="/#contact">
-              <li className="ml-10 text-sm uppercase hover:border-b">
+              <li className="ml-10 text-sm uppercase hover:border-b hover:text-[#2d90dc] hover:font-bold">
                 {" "}
                 Contact
               </li>{" "}
@@ -101,10 +101,10 @@ useEffect(() => {
             <Link href='/'>
 
               <Image
-                src="/../public/assets/meSmall.png"
+                src="/../public/favicon.ico"
                 alt="/"
-                width="50"
-                height="50"
+                width="90"
+                height="80"
               />
             </Link>
               <div onClick={handleNav} className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer">
@@ -118,34 +118,34 @@ useEffect(() => {
           <div className="py-4 flex flex-col">
             <ul className="uppercase">
                 <Link href='/'>
-                    <li onClick={()=>setNav(false)} className="py-4 text-sm">Home</li>
+                    <li onClick={()=>setNav(false)} className="py-4 text-sm hover:text-[#2d90dc] hover:font-bold">Home</li>
                 </Link>
                 <Link href='/#about'>
-                    <li onClick={()=>setNav(false)} className="py-4 text-sm">About</li>
+                    <li onClick={()=>setNav(false)} className="py-4 text-sm hover:text-[#2d90dc] hover:font-bold">About</li>
                 </Link>
                 <Link href='/#skills'>
-                    <li onClick={()=>setNav(false)} className="py-4 text-sm">Skills</li>
+                    <li onClick={()=>setNav(false)} className="py-4 text-sm hover:text-[#2d90dc] hover:font-bold">Skills</li>
                 </Link>
                 <Link href='/#projects'>
-                    <li onClick={()=>setNav(false)} className="py-4 text-sm">Projects</li>
+                    <li onClick={()=>setNav(false)} className="py-4 text-sm hover:text-[#2d90dc] hover:font-bold">Projects</li>
                 </Link>
                 <Link href='/#contact'>
-                    <li onClick={()=>setNav(false)} className="py-4 text-sm">Contact</li>
+                    <li onClick={()=>setNav(false)} className="py-4 text-sm hover:text-[#2d90dc] hover:font-bold">Contact</li>
                 </Link>
             </ul>
             <div className="pt-40">
                 <p className="uppercase tracking-widest text-[#5651e5]">Let's connect</p>
                 <div className="flex itesm-center justify-between my-4 w-full sm:w-[80%]">
-                <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
+                <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300 hover:bg-[#bfe1fb]">
                     <FaLinkedinIn /> 
                 </div>
-                <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
+                <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300 hover:bg-[#bfe1fb]">
                     <FaGithub /> 
                 </div>
-                <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
+                <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300 hover:bg-[#bfe1fb]">
                     <AiOutlineMail /> 
                 </div>
-                <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
+                <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300 hover:bg-[#bfe1fb]">
                     <BsFillPersonLinesFill /> 
                 </div>
                 </div>

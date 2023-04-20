@@ -5,16 +5,11 @@ import React from "react";
 const About = () => {
   return (
     <div id="about" className="w-full md:h-screen p-2 flex items-center py-16">
-    <div className="absolute top-0 -left-4 w-72 h-72 bg-purple-300 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob1a "></div>
-    <div className="absolute top-20 -right-4 w-72 h-72 bg-yellow-300 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob1b "></div>
-    <div className="absolute -bottom-8 left-80 w-72 h-72 bg-pink-300 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob2a"></div>
-    <div className="absolute -bottom-18 left-80 w-72 h-72 bg-emerald-200 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob2b "></div>
-    <div className="absolute -bottom-5 right-10 w-72 h-72 bg-emerald-400 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob3a "></div>
-     
+
      
       <div className="max-w-[1240px] m-auto md:grid grid-cols-3 gap-8">
         <div className="col-span-2">
-          <p className="uppercase text-xl tracking-widest  text-[#5651e5]">
+          <p className="uppercase text-4xl tracking-widest  text-[#5651e5] font-caveat">
             About
           </p>
           <h2 className="py-4">Who I Am</h2>
@@ -57,7 +52,7 @@ const About = () => {
             <span className="text-[#5651e5] font-bold"> creative problem solver</span>,
             <span className="text-[#5651e5] font-bold"> meticulous </span>,
             and
-             <span className="text-[#5651e5] font-bold"> detail oriented
+             <span className="text-[#5651e5] font-bold blob4b"> detail oriented
             </span>
             . My passion lies in mission-based, tech-for-good roles that allow
             me to use my skills to make a positive impact on society.
@@ -66,9 +61,9 @@ const About = () => {
             <Link href="/#projects">Check out my projects</Link>
           </p>
         </div>
-        <div className="w-full h-auto m-auto shadow-xl shawdow-gray-400 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300">
+        <div className="relative w-full h-auto m-auto shadow-xl shawdow-gray-400 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300 bg-[#ecf0f3]">
         <Image
-            className="rounded-xl "
+            className="rounded-xl"
             src="/../public/assets/me2.jpeg"
             alt="/"
           width="285"

@@ -1,4 +1,5 @@
 import About from '@/components/About'
+import BackgroundBalls from '@/components/BackgroundBalls'
 import Contact from '@/components/Contact'
 import Main from '@/components/Main'
 import Navbar from '@/components/Navbar'
@@ -16,6 +17,7 @@ export default function Home() {
 }
   <Head>
     <title>Grace | Fullstack Developer</title>
+    {/* <link rel="icon" type="image/png" sizes="32x32" href="/favicon.ico"/> */}
   </Head>
   <Main/>
   <About/>
