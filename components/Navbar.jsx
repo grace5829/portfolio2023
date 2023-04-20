@@ -50,12 +50,12 @@ useEffect(() => {
     className={shadow? 'fixed w-full h-20 shadow-xl z-[100]':' fixed w-full h-20 z-[100]'  }>
       <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
         <Link href='/'> 
-        {/* <Image
+        <Image
           src="/../public/logo.png"
           alt="/"
           width="90"
           height="90"
-        /> */}
+        />
         </Link>
         <div>
         {/* when you click to a project; it should go to a individual page for more detail about the app then link to the app on that page  */}
@@ -100,12 +100,12 @@ useEffect(() => {
             <div className="flex w-full items-center justify-between">
             <Link href='/'>
 
-              {/* <Image
+              <Image
                 src="/../public/logo.png"
                 alt="/"
                 width="90"
                 height="90"
-              /> */}
+              />
             </Link>
               <div onClick={handleNav} className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer">
                 <AiOutlineClose />
