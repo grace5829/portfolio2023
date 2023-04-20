@@ -53,8 +53,8 @@ useEffect(() => {
         <Image
           src="/../public/favicon.ico"
           alt="/"
-          width="95"
-          height="80"
+          width="90"
+          height="90"
         />
         </Link>
         <div>
@@ -104,7 +104,7 @@ useEffect(() => {
                 src="/../public/favicon.ico"
                 alt="/"
                 width="90"
-                height="80"
+                height="90"
               />
             </Link>
               <div onClick={handleNav} className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer">
