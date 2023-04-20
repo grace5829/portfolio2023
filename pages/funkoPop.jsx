@@ -1,6 +1,5 @@
 import Image from 'next/image'
 import React from 'react'
-import FunkoPopTopImg from '../public/assets/projects/FunkoPopTopImg.png'
 import {RiRadioButtonFill} from 'react-icons/ri'
 import Link from 'next/link'
 const FunkoPop = () => {
