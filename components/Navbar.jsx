@@ -51,7 +51,7 @@ useEffect(() => {
       <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
         <Link href='/'> 
         <Image
-          src="/../public/logo.png"
+          src="/../public/assets/projects/logo.png"
           alt="/"
           width="90"
           height="90"
@@ -101,7 +101,7 @@ useEffect(() => {
             <Link href='/'>
 
               <Image
-                src="/../public/logo.png"
+                src="/../public/assets/projects/logo.png"
                 alt="/"
                 width="90"
                 height="90"
