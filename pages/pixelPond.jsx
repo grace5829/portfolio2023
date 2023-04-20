@@ -38,9 +38,9 @@ const PixelPond = () => {
             figuring out the best way to download multiple images. I spent time
             researching on google and experimented with different solutions. I
             knew the fastest solution would be to download a zip file with all
-            the images but I couldn't find documentation for the exact code. I
+            the images but I couldn&apos;t find documentation for the exact code. I
             started by writing code to download images one at a time and with
-            the save location as computer's downloads folder. Then I figured out
+            the save location as computer&apos;s downloads folder. Then I figured out
             how to create a new folder within my downloads folder for all the
             images. Lastly, I figured out how to convert the folder to a zip
             format.

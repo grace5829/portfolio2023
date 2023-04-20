@@ -10,19 +10,19 @@ const wormsEyeView = () => {
         <div className='absolute top-0 left-0 w-full h-[30vh] lg:h-[40vh] bg-black/80  z-10'/> 
         <Image className='absolute  z-1' layout='fill' objectFit='cover' src={wormsEyeViewImg} alt='/' />
       <div className='absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white  z-10 p-2'> 
-        <h1 className='py-2'>Worn's Eye View</h1>
+        <h1 className='py-2'>Worm&apos;s Eye View</h1>
       </div>
       </div>
       <div className='max-w-[1240px] mx-auto p-2 grid md:grid-cols-5 gap-8 pt-8'>
         <div className='col-span-4'> 
         <h2>Overview</h2>
-        <p>Worm's Eye View is a gardening companion app to assist gardeners. User's can a list of plant suggestions based on 
+        <p>Worm&apos;s Eye View is a gardening companion app to assist gardeners. User&apos;s can a list of plant suggestions based on 
         their location, time of year, and current weather.Additionally, 
          users can browse the entire database of 500 plants, save favorite plants,
          journal their gardening progress and plan their future garden with our garden plot visualizer tool.
          </p>
          <p>
-        Worm's Eye View was my capstone project at Fullstack Academy. This project taught me the importance of planning and design. We started with a very clear goal, 
+        Worm&apos;s Eye View was my capstone project at Fullstack Academy. This project taught me the importance of planning and design. We started with a very clear goal, 
         stretch goal, and design. We invested time and resources into these areas which saved time in the long run since we had a good API for plants, images, and weather. 
         We also had a clear idea of the layout so it was easy for everyone to focus on a small part without constantly needing to check in. 
 </p> 

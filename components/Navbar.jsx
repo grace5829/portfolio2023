@@ -50,12 +50,12 @@ useEffect(() => {
     className={shadow? 'fixed w-full h-20 shadow-xl z-[100]':' fixed w-full h-20 z-[100]'  }>
       <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
         <Link href='/'> 
-        <Image
-          src="/../public/favicon.ico"
+        {/* <Image
+          src="/../public/logo.png"
           alt="/"
           width="90"
           height="90"
-        />
+        /> */}
         </Link>
         <div>
         {/* when you click to a project; it should go to a individual page for more detail about the app then link to the app on that page  */}
@@ -100,19 +100,19 @@ useEffect(() => {
             <div className="flex w-full items-center justify-between">
             <Link href='/'>
 
-              <Image
-                src="/../public/favicon.ico"
+              {/* <Image
+                src="/../public/logo.png"
                 alt="/"
                 width="90"
                 height="90"
-              />
+              /> */}
             </Link>
               <div onClick={handleNav} className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer">
                 <AiOutlineClose />
               </div>
             </div>
             <div className="border-b border-gray-300 my-4"> 
-                <p className="w-[85%] md:w-[90%] py-4">Let's build something</p>
+                <p className="w-[85%] md:w-[90%] py-4">Let&apos;s build something</p>
             </div>
           </div>
           <div className="py-4 flex flex-col">
@@ -134,7 +134,7 @@ useEffect(() => {
                 </Link>
             </ul>
             <div className="pt-40">
-                <p className="uppercase tracking-widest text-[#5651e5]">Let's connect</p>
+                <p className="uppercase tracking-widest text-[#5651e5]">Let&apos;s connect</p>
                 <div className="flex itesm-center justify-between my-4 w-full sm:w-[80%]">
                 <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300 hover:bg-[#bfe1fb]">
                     <FaLinkedinIn /> 
