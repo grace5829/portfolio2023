@@ -18,7 +18,7 @@ const Projects = () => {
             <div className='grid md:grid-cols-2 gap-8'> 
         <Projectitem title='Pixel Pond' backgroundImg={pixelPondImg} projectUrl='/pixelPond' description='Photo storage and management website'/>
         <Projectitem title="Worm's Eye View" backgroundImg={wormsEyeView} projectUrl='/wormsEyeView' description='Gardening companion app'/>
-        {/* <Projectitem title='FunkoPop Shop' backgroundImg={FunkoPopTopImg} projectUrl='/funkoPop' description='E-commerce' /> */}
+        <Projectitem title='FunkoPop Shop' backgroundImg={FunkoPopTopImg} projectUrl='/funkoPop' description='E-commerce' />
         {/* <Projectitem title='Grace`s Bookshelf' backgroundImg={bookshelfImg} projectUrl='/bookshelf' /> */}
 
             </div>
