@@ -15,7 +15,6 @@ const FunkoPop = () => {
       </div>
       </div>
       <div className='bg-[#ecf0f3]'>
-
       <div className='max-w-[1240px] mx-auto p-2 grid md:grid-cols-5 gap-8 pt-8 bg-[#ecf0f3]'>
         <div className='col-span-4'> 
         <p>My first group project! We created an e-commerce site for Funko Pop products. 
