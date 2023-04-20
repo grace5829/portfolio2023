@@ -3,7 +3,7 @@ import Link from 'next/link'
 import React from 'react'
 import progress from '../public/assets/projects/progress.jpeg'
 import pixelPondImg from '../public/assets/projects/pixelPondImg.png'
-import FunkoPopImg from '../public/assets/projects/FunkoPopImg.png'
+import FunkoPopTopImg from '../public/assets/projects/FunkoPopTopImg.png'
 import wormsEyeView from '../public/assets/projects/wormsEyeViewImg.png'
 import bookshelfImg from '../public/assets/projects/bookshelfImg.png'
 import Projectitem from './Projectitem'
@@ -18,7 +18,7 @@ const Projects = () => {
             <div className='grid md:grid-cols-2 gap-8'> 
         <Projectitem title='Pixel Pond' backgroundImg={pixelPondImg} projectUrl='/pixelPond' description='Photo storage and management website'/>
         <Projectitem title="Worm's Eye View" backgroundImg={wormsEyeView} projectUrl='/wormsEyeView' description='Gardening companion app'/>
-        <Projectitem title='FunkoPop Shop' backgroundImg={FunkoPopImg} projectUrl='/funkoPop' description='E-commerce' />
+        <Projectitem title='FunkoPop Shop' backgroundImg={FunkoPopTopImg} projectUrl='/funkoPop' description='E-commerce' />
         {/* <Projectitem title='Grace`s Bookshelf' backgroundImg={bookshelfImg} projectUrl='/bookshelf' /> */}
 
             </div>
