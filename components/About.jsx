@@ -62,12 +62,9 @@ const About = () => {
           </p>
         </div>
         <div className="relative w-full h-auto m-auto shadow-xl shawdow-gray-400 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300 bg-[#ecf0f3]">
-        <Image
-            className="rounded-xl"
-            src="/../public/assets/me2.jpeg"
-            alt="/"
-          width="285"
-          height="280"          />
+        <Link href='/'> 
+        <img src='https://firebasestorage.googleapis.com/v0/b/story-of-my-life-d0220.appspot.com/o/images%2Fme2158f5f91-49b4-4eca-9db2-5cd03f20b592?alt=media&token=71492f80-8e2e-477d-a552-116352256843' alt='' />
+        </Link>
         </div>
       </div>
     </div>
