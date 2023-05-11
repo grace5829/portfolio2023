@@ -55,18 +55,31 @@ const BackgroundBalls = () => {
       <div className="absolute top-[410%] left-[40%] w-72 h-72 bg-indigo-200 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob1b "></div>
       <div className="absolute top-[480%] -left-4 w-52 h-52 bg-sky-200 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob1a "></div>
 
-      <div className="absolute top-[410%] -left-4 w-72 h-72 bg-orange-300 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob1a "></div>
-      <div className="absolute top-[450%] left-10 w-32 h-32 bg-purple-400 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob4b "></div>
-      <div className="absolute top-[470%] left-[30%] w-62 h-62 bg-orange-200 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob4b "></div>
-      <div className="absolute top-[440%] right-6  w-72 h-72 bg-yellow-200 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob2b "></div>
-      <div className="absolute top-[470%] left-[80%] w-72 h-72 bg-lime-300 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob3b "></div>
-      <div className="absolute top-[410%] right-[40%] w-52 h-52 bg-fuchsia-300 rounded-full mix-blend-multiply  filter blur-xl opacity-70 animate-blob1a"></div>
-      <div className="absolute top-[450%] left-80 w-72 h-72 bg-pink-300 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob3a"></div>
-      <div className="absolute top-[470%] left-80 w-72 h-72 bg-rose-200 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob4b "></div>
-      <div className="absolute top-[490%] left-[20%] w-52 h-52 bg-green-300 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob1b "></div>
-      <div className="absolute top-[500%] right-[20%] w-22 h-22 bg-teal-200 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob3a "></div>
-      <div className="absolute top-[510%] left-[80%] w-72 h-72 bg-indigo-200 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob1b "></div>
+    <div className="absolute top-[410%] -left-4 w-72 h-72 bg-orange-300 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob1a "></div>
+    <div className="absolute top-[450%] left-10 w-32 h-32 bg-purple-400 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob4b "></div>
+    <div className="absolute top-[470%] left-[30%] w-62 h-62 bg-orange-200 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob4b "></div>
+    <div className="absolute top-[440%] right-6  w-72 h-72 bg-yellow-200 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob2b "></div>
+    <div className="absolute top-[470%] left-[80%] w-72 h-72 bg-lime-300 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob3b "></div>
+    <div className="absolute top-[410%] right-[40%] w-52 h-52 bg-fuchsia-300 rounded-full mix-blend-multiply  filter blur-xl opacity-70 animate-blob1a"></div>
+    <div className="absolute top-[450%] left-80 w-72 h-72 bg-pink-300 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob3a"></div>
+    <div className="absolute top-[470%] left-80 w-72 h-72 bg-rose-200 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob4b "></div>
+    <div className="absolute top-[490%] left-[20%] w-52 h-52 bg-green-300 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob1b "></div>
+    <div className="absolute top-[500%] right-[20%] w-22 h-22 bg-teal-200 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob3a "></div>
+    <div className="absolute top-[510%] left-[80%] w-72 h-72 bg-indigo-200 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob1b "></div>
+    <div className="absolute top-[580%] -left-4 w-52 h-52 bg-sky-200 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob1a "></div>
 
+    <div className="absolute top-[510%] -left-4 w-72 h-72 bg-amber-300 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob1a "></div>
+    <div className="absolute top-[550%] left-10 w-32 h-32 bg-purple-300 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob4b "></div>
+    <div className="absolute top-[570%] left-[20%] w-62 h-62 bg-pink-200 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob4b "></div>
+    <div className="absolute top-[540%] right-6  w-72 h-72 bg-yellow-300 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob2b "></div>
+    <div className="absolute top-[580%] left-[60%] w-72 h-72 bg-lime-300 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob2b "></div>
+    <div className="absolute top-[640%] right-[40%] w-52 h-52 bg-fuchsia-300 rounded-full mix-blend-multiply  filter blur-xl opacity-70 animate-blob1a"></div>
+    <div className="absolute top-[550%] left-80 w-72 h-72 bg-pink-300 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob3a"></div>
+    <div className="absolute top-[570%] left-80 w-72 h-72 bg-orange-400 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob4b "></div>
+    <div className="absolute top-[490%] left-[40%] w-52 h-52 bg-green-300 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob1b "></div>
+    <div className="absolute top-[500%] right-[20%] w-22 h-22 bg-teal-200 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob3a "></div>
+    <div className="absolute top-[510%] left-[80%] w-72 h-72 bg-indigo-200 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob1b "></div>
+    <div className="absolute top-[620%] -left-4 w-52 h-52 bg-sky-200 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob1a "></div>
       <div className="absolute top-[510%] -left-4 w-72 h-72 bg-amber-300 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob1a "></div>
       <div className="absolute top-[510%] right-[40%] w-52 h-52 bg-fuchsia-300 rounded-full mix-blend-multiply  filter blur-xl opacity-70 animate-blob1a"></div>
     </div>
